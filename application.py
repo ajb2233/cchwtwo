@@ -32,6 +32,7 @@ def loadpage():
     	'{"status": "' + status + '","lat": ' + lat + ',"lng": ' + lng+ ',"feeling": "' + feeling + '"}',
     	#'search-minihw2-fdw6cbkvqwd3r6yvfvdvwws3yy.us-west-2.es.amazonaws.com/minihw2/tweets'
 	#'search-minihw2-eeygwlzb7shc2n3qpk2aii4efy.us-east-1.es.amazonaws.com/minihw2/tweets'
+	#'search-hwtwo-ihcx3rthxk64bxa56xznmc4c3i.us-east-1.es.amazonaws.com/hwtwo/tweets'
 	'search-hwtwo-ihcx3rthxk64bxa56xznmc4c3i.us-east-1.es.amazonaws.com/hwtwo/tweets'
 	])
 	app.logger.info(myData)
